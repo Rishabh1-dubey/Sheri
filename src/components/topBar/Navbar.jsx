@@ -8,8 +8,8 @@ const Navbar = () => {
       {/* ----- we have a another div for showing buttonn */}
      <div className=" leftdiv flex  items-center">
      <img className="mr-10 h-6" src={LOGO_URL} alt="logo" />
-      <div className="flex  ml-6 gap-16">
-        {["Home", "Work", "Contact", "", "News"].map((elem, index) =>
+      <div className="flex  ml-6 gap-16 font-sans ">
+        {["Hasirama", "Madara", "Shisui", "", "Ninjas"].map((elem, index) =>
           elem.length === 0 ? (
             <span className="h-10 w-[2.5px] bg-zinc-500"></span>
           ) : (
