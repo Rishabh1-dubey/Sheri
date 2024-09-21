@@ -4,10 +4,10 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <div className=" border border-red-200 max-w-screen-xl mx-auto p-8 mr-14 flex items-center justify-between ">
+    <div className="  max-w-screen-xl mx-auto p-8 mr-14 flex items-center justify-between ">
       {/* ----- we have a another div for showing buttonn */}
      <div className=" leftdiv flex  items-center">
-     <img className="mr-10 h-6" src={LOGO_URL} alt="logo" />
+     <img className="mr-10 h-10" src={LOGO_URL} alt="logo" />
       <div className="flex  ml-6 gap-16 font-sans ">
         {["Hasirama", "Madara", "Shisui", "", "Ninjas"].map((elem, index) =>
           elem.length === 0 ? (

@@ -1,3 +1,3 @@
-export const LOGO_URL="https://assets-global.website-files.com/6334198f239547d0f9cd84b3/63349803431f1562dccf1802_refokus%20logo.svg"
+export const LOGO_URL="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfSXg158uL6ks6rhjFqgzo5O5Y3DstsH-gVw&s"
 
 
