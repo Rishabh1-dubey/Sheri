@@ -10,7 +10,7 @@ function Marquee({ imageurl,direction }) {
         className="flex flex-sh gap-40  py-10 pr-40"
       >
         {imageurl.map((url) => (
-          <img className="w-[7vw] flex-shrink-0" src={url} />
+          <img className=" w-[7vw] flex-shrink-0" src={url} />
         ))}
       </motion.div>
 
